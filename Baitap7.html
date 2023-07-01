@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 7</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    table, td{
+        border: 1px solid;
+        width: 500px;
+        border-collapse: collapse;
+    }
+    td{
+        height: 50px;
+        line-height: 50px;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        height: 30px;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td class="container">
+                <b>Modal 1</b>
+                <span>X</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Show a second modal and hide this one with the button blow.</td>
+        </tr>
+        <tr>
+            <td style="text-align: right;"><button>Open second modal</button></td>
+        </tr>
+    </table>
+</body>
+</html>

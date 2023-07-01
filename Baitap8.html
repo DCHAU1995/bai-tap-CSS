@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 8</title>
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+    table, td{
+        width: 500px;
+        border: 1px solid;
+        border-collapse: collapse;
+    }
+    span > span{
+        color: red;
+    }
+</style>
+<body>
+    <table>
+        <tr style="color: blue;background-color: aqua;">
+            <td class="container">
+                <span>Accordion Item#1</span>
+                <span>&#x25B2</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>This is the first item's accorditon body. </b>It is shown by default, until the collaspe plugin adds the appropriate classes that we use to style each element. These classes control overall appearance, ass well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overding our default variables. It's also wrong nothing that just about any HTML can go within th <span><span>.accorditon-body</span></span>, though the transition does limt overflow.
+            </td>
+        </tr>
+        <tr>
+            <td class="container">
+                <span>Accordion Item#2</span>
+                <span>&#x25BC</i></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="container">
+                <span>Accordion Item#3</span>
+                <span>&#x25BC</i></span>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
